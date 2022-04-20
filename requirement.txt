@@ -1,1 +1,37 @@
+# requirements 
 
+import re
+import os
+import csv
+import nltk
+import json
+import lxml
+import math
+import spacy
+import plotly
+import requests 
+import datetime
+import numpy as np
+import pandas as pd
+import seaborn as sns
+from datetime import date 
+import plotly.express as px
+from textblob import TextBlob
+from datetime import datetime
+from datetime import timedelta
+from nltk.stem.porter import *
+import plotly.graph_objs as go
+import matplotlib.pyplot as plt 
+from collections import Counter
+from nltk.corpus import stopwords
+import plotly.figure_factory as ff
+from urllib.request import urlopen 
+from bs4 import BeautifulSoup as soup
+from nltk.tokenize import word_tokenize 
+from nltk.stem import WordNetLemmatizer
+from IPython.display import clear_output
+from pandas.io.json import json_normalize
+from plotly.subplots import make_subplots
+from nltk.corpus import sentiwordnet as swn
+plotly.offline.init_notebook_mode (connected = True)
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
